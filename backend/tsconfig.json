@@ -16,6 +16,18 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "allowUnusedLabels": false,
+    "alwaysStrict": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": false,
+    "strictFunctionTypes": false,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@libs/*": ["src/libs/*"]
+    }
   }
 }
